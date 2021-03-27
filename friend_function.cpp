@@ -20,6 +20,9 @@ public:
   }
   // friend function which is not part of this class but can access private variables of this class
   friend void display(human man);
+
+  // for making class as friend
+  // friend class classname
 };
 
 void display(human man)
